@@ -52,7 +52,7 @@ The project explores architectural tweaks, custom loss functions, and training s
 | :---------------- | :-------------------- | :----------------------------- | :-------------------------- |
 | **Model 1**       | **`LpLoss` + Noise**  | **1.04%**                      | **57.0%**                   |
 | **Model 2**       | `SobolevLoss` + Noise | 2.67%                          | 71.1%                       |
-| *Paper Benchmark* | *`LpLoss`*            | *3.8%*                         | *N/A (Visual)*              |
+| *Paper Benchmark* | *`LpLoss`*            | 3.8%                           | *N/A (Visual)*              |
 
 #### Analysis
 
@@ -97,5 +97,6 @@ jupyter notebook 2d-ns-tweeks.ipynb
 
 * Zongyi Li et al., *Fourier Neural Operator for Parametric Partial Differential Equations* (NeurIPS 2020).
 * [Original FNO Repository](https://github.com/zongyi-li/fourier_neural_operator)
+
 
 
